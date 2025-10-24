@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.heading {
+    text-align: center;
+    font-family: Roboto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 150px);
+    gap: 10px;
+    border: 2px solid #000010;
+    margin: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.item1 {
+    justify-self: start;
+}
+
+.item2 {
+    align-self: center;
+}
+
+.item3 {
+    justify-self: end;
+}
+
+.item5 {
+    justify-self: center;
+    align-self: center;
+}
+
+.item7 {
+    justify-self: center;
+}
+
+.item8 {
+    align-self: end;
+}
+
+.item9 {
+    align-self: start;
+}
